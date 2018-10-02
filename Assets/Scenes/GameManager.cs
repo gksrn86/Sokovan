@@ -12,11 +12,13 @@ public class GameManager : MonoBehaviour {
     public bool isGameOver;
 
 	// Use this for initialization
+	// 初期化のためにこれを使用
 	void Start () {
         isGameOver = false;
 	}
 	
 	// Update is called once per frame
+	//アップデートはフレームごとに一度ずつ呼び出し
 	void Update () {
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -42,7 +44,7 @@ public class GameManager : MonoBehaviour {
 
         if(count >=3)
         {
-            Debug.Log("게임 승리!");
+            Debug.Log("게임 승리!//ゲーム勝利!");
             isGameOver = true;
             winUI.SetActive(true);
         }
