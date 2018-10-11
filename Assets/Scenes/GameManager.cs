@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	//アップデートはフレームごとに一度ずつ呼び出し
+	//アップデートはフレームごとに一回ずつ呼び出し
 	void Update () {
 
         if (Input.GetKeyDown(KeyCode.Space))
