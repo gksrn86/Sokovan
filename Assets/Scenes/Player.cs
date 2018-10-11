@@ -13,7 +13,7 @@ public class Player : MonoBehaviour {
     private Rigidbody playerRigidbody;
 
 	// 게임이 처음 시작되었을때 한번
-	// ゲームが始まった時一度
+	// ゲームが始まった時　一度
 	void Start () {
         playerRigidbody = GetComponent<Rigidbody>();
 	}
