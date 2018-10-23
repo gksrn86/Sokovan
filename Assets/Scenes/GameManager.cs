@@ -11,13 +11,11 @@ public class GameManager : MonoBehaviour {
 
     public bool isGameOver;
 
-	// Use this for initialization
 	// 初期化のためにこれを使用
 	void Start () {
         isGameOver = false;
 	}
 	
-	// Update is called once per frame
 	//アップデートはフレームごとに一回ずつ呼び出し
 	void Update () {
 
